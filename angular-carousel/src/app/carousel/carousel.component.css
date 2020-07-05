@@ -1,0 +1,34 @@
+.carousel-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: black;
+  position: relative; /* for carousel-controls */ 
+}
+
+.carousel-column {
+  flex: 1 1 0;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: row;
+  width: calc(100% - 40px);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.carousel-page-button {
+  height: 12px;
+  width: 12px;
+  background-color: silver;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 4px;
+}
